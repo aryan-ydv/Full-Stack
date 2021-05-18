@@ -15,6 +15,7 @@ import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
 
 const App = () => {
   const [formData, setFormData] = useState({ name: "", email: "" });
+  
   const [dataList, setDataList] = useState([]);
 
   const onChangeInput = (event) => {
